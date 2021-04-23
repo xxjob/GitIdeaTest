@@ -1,6 +1,7 @@
 package com.xx.test;
 
 import cn.hutool.core.collection.CollUtil;
+import cn.hutool.core.util.StrUtil;
 import cn.hutool.extra.spring.SpringUtil;
 import cn.hutool.extra.tokenizer.Result;
 import cn.hutool.extra.tokenizer.TokenizerEngine;
@@ -40,11 +41,11 @@ public class Test1 {
 
         System.out.println("resultStr = " + resultStr);
 
-//        String temp = "";
-//
-//        boolean b = StrUtil.equals(temp, "");
-//
-//        System.out.println("b = " + b);
+        String temp = "";
+
+        boolean b = StrUtil.equals(temp, "");
+
+        System.out.println("b = " + b);
 //
 //
 //        StrBuilder strBuilder = new StrBuilder();
